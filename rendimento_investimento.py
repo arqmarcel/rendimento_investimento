@@ -1,5 +1,5 @@
-from imposto_renda import imposto_renda
-from iof_regressivo import iof_regressivo
+from functions.imposto_renda import imposto_renda
+from functions.iof_regressivo import iof_regressivo
 
 def calcular_valor_futuro(aporte, taxa_anual, meses, valor_inicial=0):
     """
